@@ -70,8 +70,8 @@ if __name__ == "__main__":
     # 分割用户名和密码为列表
     user_list = username.split(",")
     passwd_list = password.split(",")
-    user_list = user_list + ['花呗分期']
-    passwd_list = passwd_list + [passwd_list[-1]]
+    user_list = user_list + ['花呗分期'] + ['全球煮鸡论坛']
+    passwd_list = passwd_list + [passwd_list[-1]] + [passwd_list[-1]]
 
     if len(user_list) != len(passwd_list):
         print("用户名与密码个数不匹配，请检查环境变量设置是否错漏！")
